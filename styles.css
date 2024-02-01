@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+  
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font: Helvetica;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background:#FFA73280;
+    ;
+}
+.elemento_de_lista{
+    display: inline;
+    align-items: end;
+    list-style: none;
+    margin: 10px 10px;
+}
+.navbar{
+    justify-content: left;
+    margin-left: auto;
+}
+a{
+    text-decoration: none;
+    color:#FFA732;
+    opacity: 1;
+}
+a:hover{
+    opacity: 0.5;
+}
+.header {
+    text-align: right;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: #711DB0;
+    color: #FFA732;
+    border-bottom: 4px solid #EF4040;
+}
+.titulo_de_pagina{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    color: #711DB0;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px #C21292;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+.Eslogan{
+    text-align: center;
+    font-size: 2.8rem;
+    margin: 5px;
+    padding: 5px;
+    font-weight: 400;
+    text-align: center;
+    color: #C2129280;
+    text-shadow: 1px 1px 2px #711DB080;
+}
+.sticker {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 3px solid #333;
+}
+#acerca{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: 30px 10px;
+    width: 80vw;
+    height: 80vh;
+    color: #711DB0;
+    font-weight: 300;
+}
+#sobre_nosotros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+    color: #C21292;
+    text-align: justify;
+    font-size: 0.9rem;
+    overflow: hidden;
+    
+}
+.pie_de_pagina{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: justify;
+    background-color: #711DB0;
+    margin: auto;
+    padding: 30px 10px;
+    border-top: 4px solid #EF4040;
+    color: #FFA732;
+    font-size: 1.5rem;
+}
+.redes_sociales{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px 10px;
+    margin: auto;
+    color: #FFA732;
+    font-size: 1.8rem;
+}
+h3{
+    text-align: center;
+}

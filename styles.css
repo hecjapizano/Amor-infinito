@@ -12,7 +12,7 @@ body {
     width: 100%;
     height: 100%;
     position: relative;
-    background:#FFA73280;
+    background-image: url(img/bg1.jpg);
     ;
 }
 .elemento_de_lista{
@@ -27,27 +27,26 @@ body {
 }
 a{
     text-decoration: none;
-    color:#FFA732;
+    color:#97FEED;
     opacity: 1;
 }
 a:hover{
-    opacity: 0.5;
+    opacity: 0.4;
 }
 .header {
     text-align: right;
     text-transform: uppercase;
     padding: 32px;
-    background-color: #711DB0;
-    color: #FFA732;
-    border-bottom: 4px solid #EF4040;
+    background-color: #0B666A;
+    border-bottom: 4px solid #720455;
 }
 .titulo_de_pagina{
     text-align: center;
     margin: 5px;
     padding: 5px;
-    color: #711DB0;
+    color: #071952;
     font-weight: 600;
-    text-shadow: 1px 1px 2px #C21292;
+    text-shadow: 1px 1px 2px #0B666A;
     font-size: 4rem;
     text-transform: uppercase;
 }
@@ -58,8 +57,8 @@ a:hover{
     padding: 5px;
     font-weight: 400;
     text-align: center;
-    color: #C2129280;
-    text-shadow: 1px 1px 2px #711DB080;
+    color: #0D9276;
+    text-shadow: 1px 1px 2px #071952;
 }
 .sticker {
     display: flex;
@@ -76,18 +75,20 @@ a:hover{
     justify-content: space-evenly;
     padding: 30px;
     margin: auto;
-    width: 80vw;
-    height: 50vh;
-    color: #711DB0;
+    width: 80%;
+    max-width: 900px;
+    height: 200px;
+    color: #071952;
     font-weight: 300;
 }
 #sobre_nosotros{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    flex-wrap: wrap;
     margin: auto;
     padding: 20px;
-    color: #C21292;
+    color: #0B666A;
     text-align: justify;
     font-size: 0.9rem;
     overflow: hidden;
@@ -100,11 +101,11 @@ a:hover{
     flex-wrap: wrap;
     width: 100%;
     text-align: justify;
-    background-color: #711DB0;
+    background-color: #0B666A;
     margin: auto;
     padding: 30px 10px;
-    border-top: 4px solid #EF4040;
-    color: #FFA732;
+    border-top: 4px solid #720455;
+    color: #97FEED;
     font-size: 1.5rem;
 }
 .redes_sociales{
@@ -113,24 +114,26 @@ a:hover{
     justify-content: space-evenly;
     padding: 10px 10px;
     margin: auto;
-    color: #FFA732;
-    font-size: 1.8rem;
+    color: #35A29F;
+    font-size: 2.9rem;
 }
 h3{
     text-align: center;
 }
 .container-slider{
-    width: 70%;
+    width: 80vw;
     max-width: 900px;
-    margin: auto;
+    height: 100vh;
+    margin: 0 auto;
     overflow: hidden;
-    border-radius: 15px;
+    border-radius: 15px 15px 15px 15px;
     position: relative;
+    border:2px solid #35A29F;
 }
 .slider{
     display: flex;
-    width: 900%;
-    height: 350px;
+    width: 1500%;
+    height: 100%;
     margin-left: -100%;
 }
 .slider-section{

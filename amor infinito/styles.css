@@ -1,0 +1,170 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+  
+body {
+    font-family: Helvetica, sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url(img/bg1.jpg);
+    ;
+}
+.elemento_de_lista{
+    display: inline;
+    align-items: end;
+    list-style: none;
+    margin: 10px 10px;
+}
+.navbar{
+    justify-content: left;
+    margin-left: auto;
+}
+a{
+    text-decoration: none;
+    color:#97FEED;
+    opacity: 1;
+}
+a:hover{
+    opacity: 0.4;
+}
+.header {
+    text-align: right;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: #0B666A;
+    border-bottom: 4px solid #720455;
+}
+.titulo_de_pagina{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    color: #071952;
+    font-weight: 600;
+    text-shadow: 1px 1px 2px #0B666A;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+.Eslogan{
+    text-align: center;
+    font-size: 2.8rem;
+    margin: 5px;
+    padding: 5px;
+    font-weight: 400;
+    text-align: center;
+    color: #0D9276;
+    text-shadow: 1px 1px 2px #071952;
+}
+.sticker {
+    display: flex;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 3px solid #333;
+}
+#acerca{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: auto;
+    width: 80%;
+    max-width: 900px;
+    height: 200px;
+    color: #071952;
+    font-weight: 300;
+}
+#sobre_nosotros{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+    padding: 20px;
+    color: #0B666A;
+    text-align: justify;
+    font-size: 0.9rem;
+    overflow: hidden;
+    
+}
+.pie_de_pagina{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: justify;
+    background-color: #0B666A;
+    margin: auto;
+    padding: 30px 10px;
+    border-top: 4px solid #720455;
+    color: #97FEED;
+    font-size: 1.5rem;
+}
+.redes_sociales{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px 10px;
+    margin: auto;
+    color: #35A29F;
+    font-size: 2.9rem;
+}
+h3{
+    text-align: center;
+}
+.container-slider{
+    width: 80vw;
+    max-width: 900px;
+    height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 15px 15px 15px 15px;
+    position: relative;
+    border:2px solid #35A29F;
+}
+.slider{
+    display: flex;
+    width: 1500%;
+    height: 100%;
+    margin-left: -100%;
+}
+.slider-section{
+    width: 100%;
+}
+.slider-img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slider_btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    font-family: monospace;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.slider_btn:hover{
+    background: #fff;
+}
+.slider_btn--right{
+    right: 10px;
+}
+.slider_btn--left{
+    left: 10px;
+}

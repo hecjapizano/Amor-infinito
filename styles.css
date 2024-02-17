@@ -88,7 +88,7 @@ a:hover{
     flex-wrap: wrap;
     margin: auto;
     padding: 20px;
-    color: #0B666A;
+    color: #071952;
     text-align: justify;
     font-size: 0.9rem;
     overflow: hidden;
@@ -119,6 +119,7 @@ a:hover{
 }
 h3{
     text-align: center;
+    color: #071952;
 }
 .container-slider{
     width: 80vw;
@@ -132,7 +133,7 @@ h3{
 }
 .slider{
     display: flex;
-    width: 1500%;
+    width: 800%;
     height: 100%;
     margin-left: -100%;
 }
@@ -167,4 +168,19 @@ h3{
 }
 .slider_btn--left{
     left: 10px;
+}
+.testimonios{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 30px;
+    margin: auto;
+    width: 80%;
+    max-width: 900px;
+    height: 200px;
+    color: #071952;
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-style: italic;
+
 }
